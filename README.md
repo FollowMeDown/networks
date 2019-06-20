@@ -22,10 +22,10 @@ Now your full node has been initialized!
 You should fetch the correct testnet's `genesis.json` file into `chatd`'s config directory before connecting to public testnet.
 
 ```
-curl https://raw.githubusercontent.com/openchatproject/networks/master/chat-test-0001/genesis.json > <chatd_home>/config/genesis.json
+curl https://raw.githubusercontent.com/openchatproject/networks/master/chat-test-0002/genesis.json > <chatd_home>/config/genesis.json
 ```
 
-We use the `chat-test-0001` directory in the [networks repo](https://github.com/openchatproject/networks) which contains details for the current testnet. If you prepare connecting to a different one, ensure you get the right files.
+We use the `chat-test-0002` directory in the [networks repo](https://github.com/openchatproject/networks) which contains details for the current testnet. If you prepare connecting to a different one, ensure you get the right files.
 
 You can verify the correctness of genesis file.
 ```bash
@@ -35,10 +35,10 @@ chatd validate-genesis --home=<chatd_home>
 ### Add Seed Nodes
 
 Your node needs to know how to find peers. You'll need to add healthy seed nodes to `<chatd_home>/config/config.toml`. The [networks repo](https://github.com/openchatproject/networks) contains template config file including the seed nodes for each testnet. You can download the config file or manually update the local one.
-To check the seeds in [networks repo](https://github.com/openchatproject/networks) of `chat-test-0001`.
+To check the seeds in [networks repo](https://github.com/openchatproject/networks) of `chat-test-0002`.
 
 ```bash
-curl https://raw.githubusercontent.com/openchatproject/networks/master/chat-test-0001/config.toml | grep 'seeds = '
+curl https://raw.githubusercontent.com/openchatproject/networks/master/chat-test-0002/config.toml | grep 'seeds = '
 ```
 
 You can update the `seeds` value to the local config file.
