@@ -50,9 +50,9 @@ Start the full node with:
 ```bash
 chatd start --home=<chatd_home>
 ```
-Check that everything is running smoothly:
+Check that everything is running smoothly via chatcli:
 ```bash
-chatcli status --home=<chatd_home>
+chatcli status
 ```
 You can view the status of the testnet with the [explorer](http://testnet.openchat.co). 
 
