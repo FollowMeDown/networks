@@ -1,0 +1,390 @@
+{
+  "genesis_time": "2019-07-03T08:51:46.000208Z",
+  "chain_id": "chat-test-0003",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "address": "chat18v7sl7qtr5rtfgxcgs93xs25kjhts44fv0xatz",
+        "coins": [
+          {
+            "denom": "uchat",
+            "amount": "50000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "chat13va5cf7t4l4e2ua7rlqamluagwa0v67p7h8gtp",
+        "coins": [
+          {
+            "denom": "uchat",
+            "amount": "50000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "chat1jy228r0jsez7xcvqh4tj73nkwqys9ydqgxh8wa",
+        "coins": [
+          {
+            "denom": "uchat",
+            "amount": "50000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "chat1l6lqvv6xdwdv0fa26qphxx8rs52lfupm68heds",
+        "coins": [
+          {
+            "denom": "uchat",
+            "amount": "50000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "chat1vymzrg3xdkul97ewrkn60nq8q85nxar7f8gj58",
+        "coins": [
+          {
+            "denom": "uchat",
+            "amount": "800000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      }
+    ],
+    "auth": {
+      "collected_fees": null,
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "staking": {
+      "pool": {
+        "not_bonded_tokens": "1000000000000000",
+        "bonded_tokens": "0"
+      },
+      "params": {
+        "unbonding_time": "259200000000000",
+        "max_validators": 100,
+        "max_entries": 7,
+        "bond_denom": "uchat"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "uchat",
+        "inflation_rate_change": "0.070000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "distr": {
+      "fee_pool": {
+        "community_pool": null
+      },
+      "community_tax": "0.020000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": null,
+      "previous_proposer": "",
+      "outstanding_rewards": null,
+      "validator_accumulated_commissions": null,
+      "validator_historical_rewards": null,
+      "validator_current_rewards": null,
+      "delegator_starting_infos": null,
+      "validator_slash_events": null
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "uchat",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "172800000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "uchat",
+        "amount": "100000000"
+      }
+    },
+    "slashing": {
+      "params": {
+        "max_evidence_age": "120000000000",
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "gentxs": [
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "testbp0",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "chat18v7sl7qtr5rtfgxcgs93xs25kjhts44fv0xatz",
+                "validator_address": "chatvaloper18v7sl7qtr5rtfgxcgs93xs25kjhts44frsa2zm",
+                "pubkey": "chatvalconspub1zcjduepqurw4zemdj3m04dzs5xnf57jkcg6klwh2zevfdkchyzfyg6g0e0psrhkt04",
+                "value": {
+                  "denom": "uchat",
+                  "amount": "40000000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AyTgbguHASECJJd8R22GcpIUAi0ACt+zVgzWh3WSUrVk"
+              },
+              "signature": "h/BI0XYJxubv1fds/lXqH6l+SPZxWxkRFwqiq13QJCsIkP6HrWCNftrfkPw1+qArBgxVHkbQYmRcGGJ3ZVM8CQ=="
+            }
+          ],
+          "memo": "e76856f476620314a885eb8b1edf4524158cf9f7@192.168.20.2:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "testbp1",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "chat13va5cf7t4l4e2ua7rlqamluagwa0v67p7h8gtp",
+                "validator_address": "chatvaloper13va5cf7t4l4e2ua7rlqamluagwa0v67p3gulzc",
+                "pubkey": "chatvalconspub1zcjduepqalv7dwy2gst732qk6y4gz0mvns0n3eme25pusuttzhqh5pvjf7ssj4vc97",
+                "value": {
+                  "denom": "uchat",
+                  "amount": "40000000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A5jCnq+3i0ruNs2DSFoyzePkrpONnSkT2Yc2KoZizPDS"
+              },
+              "signature": "EzPSjtVMsq4s9l8hDP2Vcd7jyvGsR5643C6eun0QBUND12lhhw5OdTJhXZgBv0YeS660V/pKidHNwA781lz7fQ=="
+            }
+          ],
+          "memo": "e103309c8d19376ca9611bd9fce5353bcc64c657@192.168.20.3:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "testbp2",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "chat1jy228r0jsez7xcvqh4tj73nkwqys9ydqgxh8wa",
+                "validator_address": "chatvaloper1jy228r0jsez7xcvqh4tj73nkwqys9ydq8evs8y",
+                "pubkey": "chatvalconspub1zcjduepqvrf5shzpeqzw0z9h5htek08ez3kktvwkxak36vtt0l5nemxel7xs70fxke",
+                "value": {
+                  "denom": "uchat",
+                  "amount": "40000000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AvjrGE5tN749zU4oxcm0RI7rZicwapqxUj9MUSdU0jw/"
+              },
+              "signature": "Nap9ytmFmtfw4RUupPQigfXRvZh1NDm+rj80GD+Pp79H7h2vpbKNyvVgq3zJf5VpGgXwO6vFbQBcCOj1XZldCw=="
+            }
+          ],
+          "memo": "721961f483ec3fa26a8085c14d4a07f65d449f93@192.168.20.4:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "testbp3",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "chat1l6lqvv6xdwdv0fa26qphxx8rs52lfupm68heds",
+                "validator_address": "chatvaloper1l6lqvv6xdwdv0fa26qphxx8rs52lfupm4cvwyf",
+                "pubkey": "chatvalconspub1zcjduepqp3xef7vnuy2vcfga287gckhj8ax03mjcek3y0rqc0fg08vjsl0kqshtr2d",
+                "value": {
+                  "denom": "uchat",
+                  "amount": "40000000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AsZOHxBy4hUMSwJgxUhULBHc0abV1FF7eXiipBKsphbd"
+              },
+              "signature": "w7uiEqMwlUuPKRbCI/5ARNlNNI2J4/OeyUshRPNfllFRjvLVC1nVR8bMTK5Mn8q28myu3AipMRg3HLwLdj+DAw=="
+            }
+          ],
+          "memo": "1b0f1f64b493744efd515eadf49f0f456e19f288@192.168.20.5:26656"
+        }
+      }
+    ]
+  }
+}
